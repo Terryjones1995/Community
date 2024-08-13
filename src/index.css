@@ -1,0 +1,12 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .tweet-container {
+    max-width: 100%; /* Full width on smaller screens */
+    margin: 0 auto;  /* Center it */
+    padding: 0 1rem; /* Add some padding on smaller screens */
+  }
+}
